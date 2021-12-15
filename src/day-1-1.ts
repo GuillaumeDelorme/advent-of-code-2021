@@ -1,18 +1,13 @@
-import { readInputFile } from "./utils";
-
-const inputContent = readInputFile(1);
+import { input } from "./day-1-input";
 
 let previous = Infinity;
 let count = 0;
-inputContent
-  .split("\n")
-  .map((val) => parseInt(val))
-  .forEach((val) => {
-    if (val > previous) {
-      count++;
-    }
+input.forEach((val) => {
+  if (val > previous) {
+    count++;
+  }
 
-    previous = val;
-  });
+  previous = val;
+});
 
 console.log(count);

@@ -1,7 +1,4 @@
-import { readInputFile } from "./utils";
-
-const inputContent = readInputFile(1);
-const input = inputContent.split("\n").map((val) => parseInt(val));
+import { input } from "./day-1-input";
 
 let previousSum = Infinity;
 let count = 0;
