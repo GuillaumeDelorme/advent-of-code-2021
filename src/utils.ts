@@ -1,3 +1,4 @@
-import fs from "fs"
+import fs from "fs";
 
-export const readInputFile = (day: string) => fs.readFileSync(`./input/day-${day}.txt`, 'utf8')
+export const readInputFile = (day: number) =>
+  fs.readFileSync(`./input/day-${day}.txt`, "utf8");

@@ -1,6 +1,6 @@
 import { readInputFile } from "./utils";
 
-const inputContent = readInputFile("1-1");
+const inputContent = readInputFile(1);
 
 let previous = Infinity;
 let count = 0;
