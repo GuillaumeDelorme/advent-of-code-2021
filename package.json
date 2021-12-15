@@ -1,0 +1,30 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Advent of code 2021 : https://adventofcode.com/2021",
+  "scripts": {
+    "day-1-1": "ts-node ./src/day-1-1.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillaumeDelorme/advent-of-code.git"
+  },
+  "author": "Guillaume Delorme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuillaumeDelorme/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/GuillaumeDelorme/advent-of-code#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "eslint": "^8.4.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
