@@ -5,5 +5,5 @@ Link : https://adventofcode.com/2021
 Usage :
 ```sh
 pnpm i
-pnpm dayX
+pnpm day-x-x
 ```
