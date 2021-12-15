@@ -5,7 +5,8 @@
   "description": "Advent of code 2021 : https://adventofcode.com/2021",
   "scripts": {
     "day-1-1": "ts-node ./src/day-1-1.ts",
-    "day-1-2": "ts-node ./src/day-1-2.ts"
+    "day-1-2": "ts-node ./src/day-1-2.ts",
+    "day-2-1": "ts-node ./src/day-2-1.ts"
   },
   "repository": {
     "type": "git",
